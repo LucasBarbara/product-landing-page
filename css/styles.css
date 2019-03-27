@@ -27,8 +27,24 @@ img {
 
 #header {
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
 }
+
+.container {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MAIN STYLES */
+
+
+
+main {
+ padding-top : 5vh;
+}
+
