@@ -25,6 +25,12 @@ img {
 
 /* HEADER STYLES */
 
+img {
+
+  width: 100px;
+  padding-left: 20px;
+}
+
 #header {
 
   position: fixed;
@@ -37,11 +43,10 @@ img {
 .container {
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* MAIN STYLES */
-
 
 
 main {
